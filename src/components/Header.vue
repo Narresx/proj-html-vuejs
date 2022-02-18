@@ -10,6 +10,6 @@ export default {
 };
 </script>
 
-<style scopedclea>
-@import "./assets/sass/style.scss";
+<style scoped lang="scss">
+@import "../assets/sass/style.scss";
 </style>
