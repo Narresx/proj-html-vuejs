@@ -6,8 +6,8 @@
           <div class="row align-items-center justify-content-between">
             <div class="col-3">Call us for a Free Quote: 1.800.555.6789</div>
             <div class="col-3">
-              <nav class="navbar">
-                <form class="container-fluid justify-content-start">
+              <nav class="navbar d-flex">
+                <form class="container-fluid justify-content-end">
                   <ul class="d-flex">
                     <li>
                       <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="col-12">
-        <div class="container">
+        <div class="container p-3">
           <div class="row align-items-center justify-content-between">
             <div class="col-3">
               <img src="../assets/img/avada-movers-logo.png" />
@@ -52,6 +52,7 @@
           </div>
         </div>
       </div>
+      <div class="col-12"></div>
     </div>
   </header>
 </template>
@@ -86,6 +87,13 @@ header li a {
   list-style-type: none;
   text-decoration: none;
   color: $shark;
+}
+
+header {
+  background-image: url(../assets/img/avada-movers-homeherobackground-final.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 header a {
