@@ -140,4 +140,8 @@ header a {
 .text-color-shark {
   color: $shark;
 }
+
+button {
+  font-weight: bold;
+}
 </style>
