@@ -177,7 +177,80 @@
         </div>
       </div>
     </section>
-    <section>Qui Main</section>
+    <!-- fourth section -->
+    <section>
+      <div class="col-12">
+        <div class="container height-auto">
+          <h4 class="text-color-gray p-3 text-center">HAPPY CUSTOMERS</h4>
+          <h2 class="text-color-lima2 p-2 text-center">Testimonials</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center">
+                  <img
+                    src="../assets/img/avada-movers-johndoe-final.jpg"
+                    class="rounded-pic p-3"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title text-color-demin2 text-center">
+                      Johon Doe
+                    </h5>
+                    <p class="card-text bg-white text-center p-2">
+                      "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Rerum, quam quod? Nostrum natus accusamus, aliquid impedit
+                      tenetur magnam in ipsa sit, amet ad reprehenderit
+                      exercitationem praesentium illo veritatis molestiae
+                      provident!"
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center">
+                  <img
+                    src="../assets/img/avada-movers-janedoe-final.jpg"
+                    class="rounded-pic p-3"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title text-color-demin2 text-center">
+                      We Do All The Lifting
+                    </h5>
+                    <p class="card-text bg-white text-center p-2">
+                      "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Rerum, quam quod? Nostrum natus accusamus, aliquid impedit
+                      tenetur magnam in ipsa sit, amet ad reprehenderit
+                      exercitationem praesentium illo veritatis molestiae
+                      provident!"
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center">
+                  <img
+                    src="../assets/img/avada-movers-johnsmith-final.jpg"
+                    class="rounded-pic p-3"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title text-color-demin2 text-center">
+                      Coast To Coast
+                    </h5>
+                    <p class="card-text bg-white text-center p-2">
+                      "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Rerum, quam quod? Nostrum natus accusamus, aliquid impedit
+                      tenetur magnam in ipsa sit, amet ad reprehenderit
+                      exercitationem praesentium illo veritatis molestiae
+                      provident!"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fifth section -->
     <section>Qui Main</section>
   </main>
 </template>
@@ -190,6 +263,12 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/sass/_vars.scss";
+
+.rounded-pic {
+  border-radius: 100%;
+  width: 50%;
+  height: auto;
+}
 
 div button {
   font-weight: bold;
