@@ -1,6 +1,7 @@
 <template>
-  <footer class="container-fluid">
-    <div class="row justify-content-center">
+  <footer class="container-fluid p-0">
+    <div class="height-15px baground-lima2"></div>
+    <div class="row justify-content-center align-items-center">
       <div class="col-3">
         <h2>ABOUT</h2>
         <p>
@@ -97,5 +98,13 @@ a:hover {
 
 footer a :hover {
   color: $demin;
+}
+
+.baground-lima2 {
+  background-color: $lima2;
+}
+
+.height-15px {
+  height: 15px;
 }
 </style>
