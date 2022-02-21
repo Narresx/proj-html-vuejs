@@ -1,6 +1,6 @@
 <template>
   <div id="app container-fluid">
-    <Header />
+    <Header :menuItems="menuItems" />
     <Main />
     <Footer />
   </div>
@@ -17,6 +17,19 @@ export default {
     Header,
     Main,
     Footer,
+  },
+  data() {
+    return {
+      menuItems: [
+        { text: "Home", url: "#" },
+        { text: "Rates", url: "#" },
+        { text: "Testimonials", url: "#" },
+        { text: "FAQ", url: "#" },
+        { text: "Blog", url: "#" },
+        { text: "Contacts", url: "#" },
+        { text: "FREE QUOTE", url: "#" },
+      ],
+    };
   },
 };
 </script>

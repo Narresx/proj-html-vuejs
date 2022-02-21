@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div>ciao main</div>
+    <div>Qui main</div>
   </main>
 </template>
 
