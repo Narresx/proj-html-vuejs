@@ -82,7 +82,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../assets/sass/style.scss";
+@import "../assets/sass/_vars.scss";
 div .col-3,
 header nav,
 span {

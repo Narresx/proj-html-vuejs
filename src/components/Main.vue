@@ -1,6 +1,6 @@
 <template>
-  <main>
-    <div>Qui main</div>
+  <main class="container-fluid">
+    <section>Qui Main</section>
   </main>
 </template>
 
@@ -11,5 +11,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../assets/sass/style.scss";
+@import "../assets/sass/_vars.scss";
+.baground-silverchalice {
+  background-color: $silverchalice;
+}
 </style>
