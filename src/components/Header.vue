@@ -1,7 +1,7 @@
 <template>
-  <header class="container-fluid baground-lima2">
+  <header class="container-fluid">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 baground-lima2">
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-3">Call us for a Free Quote: 1.800.555.6789</div>
@@ -30,7 +30,26 @@
       </div>
       <div class="col-12">
         <div class="container">
-          {{ menuItems }}
+          <div class="row align-items-center justify-content-between">
+            <div class="col-3">
+              <img src="../assets/img/avada-movers-logo.png" />
+            </div>
+            <div class="col-7">
+              <nav class="navbar">
+                <form class="container-fluid justify-content-start">
+                  <ul
+                    class="d-flex"
+                    v-for="(item, index) in menuItems"
+                    :key="index"
+                  >
+                    <li>
+                      <a :href="item.url">{{ item.text }}</a>
+                    </li>
+                  </ul>
+                </form>
+              </nav>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -57,10 +76,16 @@ header nav {
 }
 
 header li,
-a {
+i {
   list-style-type: none;
   text-decoration: none;
   color: $white;
+}
+
+header li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: $shark;
 }
 
 header a {
