@@ -2,7 +2,7 @@
   <div id="app container-fluid">
     <Header :menuItems="menuItems" />
     <Main />
-    <Footer />
+    <Footer :footerItems="footerItems" :footerItems1="footerItems1" />
   </div>
 </template>
 
@@ -27,7 +27,20 @@ export default {
         { text: "FAQ", url: "#" },
         { text: "Blog", url: "#" },
         { text: "Contacts", url: "#" },
-        { text: "FREE QUOTE", url: "#" },
+      ],
+      footerItems: [
+        { text: "> Home", url: "#" },
+        { text: "> Rates", url: "#" },
+        { text: "> Testimonials", url: "#" },
+        { text: "> Blog", url: "#" },
+        { text: "> Free Quote", url: "#" },
+      ],
+      footerItems1: [
+        { text: "> Heading Out To Collage?", url: "#" },
+        { text: "> Moving Your Business?", url: "#" },
+        { text: "> Outstanding Quality", url: "#" },
+        { text: "> Cost of Moving", url: "#" },
+        { text: "> Best Moving Tips", url: "#" },
       ],
     };
   },

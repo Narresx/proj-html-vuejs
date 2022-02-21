@@ -37,15 +37,18 @@
             <div class="col-8">
               <nav class="navbar">
                 <form class="container-fluid justify-content-end">
-                  <ul
-                    class="d-flex"
-                    v-for="(item, index) in menuItems"
-                    :key="index"
-                  >
-                    <li>
+                  <ul class="d-flex m-0">
+                    <li
+                      class="p-2"
+                      v-for="(item, index) in menuItems"
+                      :key="index"
+                    >
                       <a :href="item.url">{{ item.text }}</a>
                     </li>
                   </ul>
+                  <button type="button" class="rounded-pill btn-primary p-3">
+                    FREE QUOTE
+                  </button>
                 </form>
               </nav>
             </div>
@@ -100,8 +103,11 @@ span {
 header li,
 i {
   list-style-type: none;
-  text-decoration: none;
   color: $white;
+}
+
+header a :hover {
+  color: $demin;
 }
 
 header li a {
@@ -109,6 +115,11 @@ header li a {
   text-decoration: none;
   color: $shark;
   font-weight: bold;
+}
+
+header li,
+a:hover {
+  color: $lima2;
 }
 
 header {
@@ -123,7 +134,7 @@ header a {
 }
 
 .text-color-gray {
-  color: $osiogray;
+  color: $dovegray;
 }
 
 .text-color-shark {
