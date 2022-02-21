@@ -29,14 +29,14 @@
         </div>
       </div>
       <div class="col-12">
-        <div class="container p-3">
+        <div class="container pt-5 pb-5">
           <div class="row align-items-center justify-content-between">
             <div class="col-3">
               <img src="../assets/img/avada-movers-logo.png" />
             </div>
             <div class="col-8">
               <nav class="navbar">
-                <form class="container-fluid justify-content-start">
+                <form class="container-fluid justify-content-end">
                   <ul
                     class="d-flex"
                     v-for="(item, index) in menuItems"
@@ -53,7 +53,7 @@
         </div>
       </div>
       <div class="col-12 align-items-center">
-        <div class="container">
+        <div class="container p-5 mt-5">
           <h3 class="text-center text-color-gray pt-4 fs-5">
             MOOVING WITHOUT THE HASSLE
           </h3>
@@ -61,6 +61,12 @@
           <h3 class="text-center text-color-gray pt-3 pb-4 fs-5">
             PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMERS SATISFACTION
           </h3>
+        </div>
+      </div>
+      <div class="col-12 baground-demin2">
+        <div class="text-center pt-4 pb-4">
+          <i class="fa-solid fa-paper-plane"></i
+          ><span class="p-2">GET A FREE QUOTO ONLINE NOW!</span>
         </div>
       </div>
     </div>
@@ -78,12 +84,17 @@ export default {
 <style scoped lang="scss">
 @import "../assets/sass/style.scss";
 div .col-3,
-header nav {
+header nav,
+span {
   color: $white;
 }
 
 .baground-lima2 {
   background-color: $lima2;
+}
+
+.baground-demin2 {
+  background-color: $demin2;
 }
 
 header li,
