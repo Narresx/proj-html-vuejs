@@ -34,7 +34,7 @@
             <div class="col-3">
               <img src="../assets/img/avada-movers-logo.png" />
             </div>
-            <div class="col-7">
+            <div class="col-8">
               <nav class="navbar">
                 <form class="container-fluid justify-content-start">
                   <ul
@@ -52,7 +52,17 @@
           </div>
         </div>
       </div>
-      <div class="col-12"></div>
+      <div class="col-12 align-items-center">
+        <div class="container">
+          <h3 class="text-center text-color-gray pt-4 fs-5">
+            MOOVING WITHOUT THE HASSLE
+          </h3>
+          <h2 class="text-color-shark text-center pt-3">WE MAKE IT SIMPLE</h2>
+          <h3 class="text-center text-color-gray pt-3 pb-4 fs-5">
+            PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMERS SATISFACTION
+          </h3>
+        </div>
+      </div>
     </div>
   </header>
 </template>
@@ -87,6 +97,7 @@ header li a {
   list-style-type: none;
   text-decoration: none;
   color: $shark;
+  font-weight: bold;
 }
 
 header {
@@ -98,5 +109,13 @@ header {
 
 header a {
   padding: 0 5px;
+}
+
+.text-color-gray {
+  color: $osiogray;
+}
+
+.text-color-shark {
+  color: $shark;
 }
 </style>
