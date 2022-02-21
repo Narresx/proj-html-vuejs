@@ -1,6 +1,6 @@
 <template>
   <footer class="container-fluid p-0">
-    <div class="height-15px baground-lima"></div>
+    <div class="height-15px baground-lima p-0"></div>
     <div class="row justify-content-center align-items-center">
       <div class="col-4 p-3">
         <h2>ABOUT</h2>

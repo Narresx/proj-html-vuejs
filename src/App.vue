@@ -1,5 +1,5 @@
 <template>
-  <div id="app container-fluid">
+  <div id="app">
     <Header :menuItems="menuItems" />
     <Main />
     <Footer :footerItems="footerItems" :footerItems1="footerItems1" />

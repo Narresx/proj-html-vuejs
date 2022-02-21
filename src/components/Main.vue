@@ -1,9 +1,9 @@
 <template>
-  <main class="container-fluid">
+  <main class="container-fluid p-0 m-0">
     <!-- first section -->
     <section
       class="
-        baground-lightgray
+        backround-lightgray
         row
         justify-content-center
         align-items-center
@@ -11,7 +11,7 @@
         pb-3
       "
     >
-      <div class="col-12">
+      <div class="col-12 p-0">
         <div class="container height-auto">
           <h4 class="text-color-gray p-3 text-center">HEADACHE FREE</h4>
           <h2 class="text-color-lima2 p-2 text-center">
@@ -178,7 +178,7 @@
       </div>
     </section>
     <!-- fourth section -->
-    <section>
+    <section class="backround-img2">
       <div class="col-12">
         <div class="container height-auto">
           <h4 class="text-color-gray p-3 text-center">HAPPY CUSTOMERS</h4>
@@ -195,7 +195,7 @@
                     <h5 class="card-title text-color-demin2 text-center">
                       Johon Doe
                     </h5>
-                    <p class="card-text bg-white text-center p-2">
+                    <p class="card-text text-center p-2">
                       "Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Rerum, quam quod? Nostrum natus accusamus, aliquid impedit
                       tenetur magnam in ipsa sit, amet ad reprehenderit
@@ -213,9 +213,9 @@
                   />
                   <div class="card-body">
                     <h5 class="card-title text-color-demin2 text-center">
-                      We Do All The Lifting
+                      Jane Doe
                     </h5>
-                    <p class="card-text bg-white text-center p-2">
+                    <p class="card-text text-center p-2">
                       "Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Rerum, quam quod? Nostrum natus accusamus, aliquid impedit
                       tenetur magnam in ipsa sit, amet ad reprehenderit
@@ -233,9 +233,9 @@
                   />
                   <div class="card-body">
                     <h5 class="card-title text-color-demin2 text-center">
-                      Coast To Coast
+                      John Smith
                     </h5>
-                    <p class="card-text bg-white text-center p-2">
+                    <p class="card-text text-center p-2">
                       "Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Rerum, quam quod? Nostrum natus accusamus, aliquid impedit
                       tenetur magnam in ipsa sit, amet ad reprehenderit
@@ -251,7 +251,36 @@
       </div>
     </section>
     <!-- fifth section -->
-    <section>Qui Main</section>
+    <section
+      class="
+        backround-img1
+        row
+        justify-content-center
+        align-items-center
+        pt-3
+        pb-3
+      "
+    >
+      <div class="col-12">
+        <div class="container height-auto">
+          <h2 class="text-color-lima2 p-2 text-center">Request A Free Quote</h2>
+          <p class="p-2 text-center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa odit
+            deleniti cumque, aperiam impedit, earum fugiat praesentium hic nisi
+            autem officiis illum optio veritatis exercitationem distinctio?
+            Doloremque blanditiis id possimus.
+          </p>
+          <div class="text-center">
+            <button
+              type="button"
+              class="rounded-pill btn-primary p-3 text-center mb-4"
+            >
+              CLICK HERE
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -294,7 +323,7 @@ div button {
   color: $demin2;
 }
 
-.baground-lightgray {
+.backround-lightgray {
   background-color: $lightgray;
 }
 
@@ -314,7 +343,21 @@ div button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../assets/img/avada-movers-servicetwophoto-final.jpg);
+  background-image: url(../assets/img/avada-movers-movewithease-background-new.jpg);
+}
+
+.backround-img1 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/img/avada-movers-request-quote-background.jpg);
+}
+
+.backround-img2 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/img/avada-movers-testimonial-background.jpg);
 }
 
 .my-hr {
