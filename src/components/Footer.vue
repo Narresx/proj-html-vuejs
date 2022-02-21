@@ -1,8 +1,8 @@
 <template>
   <footer class="container-fluid p-0">
-    <div class="height-15px baground-lima2"></div>
+    <div class="height-15px baground-lima"></div>
     <div class="row justify-content-center align-items-center">
-      <div class="col-3">
+      <div class="col-4 p-3">
         <h2>ABOUT</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
@@ -12,7 +12,7 @@
         </p>
         <img src="../assets/img/avada-movers-logo.png" />
       </div>
-      <div class="col-3">
+      <div class="col-4 p-3">
         <h2>AVADA MOVERS</h2>
         <ul>
           <li v-for="(item, index) in footerItems" :key="index">
@@ -20,7 +20,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-3">
+      <div class="col-4 p-3">
         <h2>RECENT POSTS</h2>
         <ul>
           <li v-for="(item, index) in footerItems1" :key="index">
@@ -102,6 +102,10 @@ footer a :hover {
 
 .baground-lima2 {
   background-color: $lima2;
+}
+
+.baground-lima {
+  background-color: $lima;
 }
 
 .height-15px {

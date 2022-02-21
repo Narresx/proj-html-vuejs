@@ -134,7 +134,49 @@
       </div>
     </section>
     <!-- third section -->
-    <section>Qui Main</section>
+    <section
+      class="
+        row
+        justify-content-center
+        align-items-center
+        pt-3
+        pb-3
+        backround-img
+        height-800
+      "
+    >
+      <div class="col-12">
+        <div class="container">
+          <div class="row justify-content-end p-5 h">
+            <div class="col-5">
+              <div class="border-hippiegreen text-white">
+                <div class="card-body backround-lima position-relative">
+                  <h6 class="card-subtitle text-center p-2">
+                    WE REMOVE THE HEADACHE FROM MOVING
+                  </h6>
+                  <h2 class="card-title text-center p-2">Move With Ease</h2>
+                  <div class="my-hr mt-2 mb-2 text-center"></div>
+                  <p class="card-text text-center p-4">
+                    With our simple service we can take you from gettin a quote,
+                    right through to being in your new home with all of your
+                    belongings securely packed and safely delivered, even in the
+                    rooms of your choice.
+                  </p>
+                  <div class="text-center">
+                    <button
+                      type="button"
+                      class="rounded-pill btn-primary p-2 text-center mb-4"
+                    >
+                      GET A FREE QUOTE NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section>Qui Main</section>
     <section>Qui Main</section>
   </main>
@@ -157,6 +199,10 @@ div button {
   height: auto;
 }
 
+.height-800 {
+  height: 800px;
+}
+
 .text-color-gray {
   color: $dovegray;
 }
@@ -171,5 +217,31 @@ div button {
 
 .baground-lightgray {
   background-color: $lightgray;
+}
+
+.backround-lima2 {
+  background-color: $lima2;
+}
+
+.border-hippiegreen {
+  border: 15px solid $hippiegreen;
+}
+
+.backround-lima {
+  background-color: $lima;
+}
+
+.backround-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/img/avada-movers-servicetwophoto-final.jpg);
+}
+
+.my-hr {
+  border: 1px solid $mantis;
+  width: 50%;
+  position: absolute;
+  transform: translate(50%, 0);
 }
 </style>
