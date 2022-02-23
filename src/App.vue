@@ -49,4 +49,7 @@ export default {
 
 <style lang="scss">
 @import "./assets/sass/style.scss";
+button {
+  border: 0;
+}
 </style>

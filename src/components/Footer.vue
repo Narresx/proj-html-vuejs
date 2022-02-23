@@ -1,8 +1,8 @@
 <template>
   <footer class="container-fluid p-0">
     <div class="height-15px baground-lima p-0"></div>
-    <div class="row justify-content-between align-items-center">
-      <div class="col-3 offset-1">
+    <div class="row justify-content-between">
+      <div class="col-3 p-2 offset-1">
         <h2>ABOUT</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
@@ -12,7 +12,7 @@
         </p>
         <img src="../assets/img/avada-movers-logo.png" />
       </div>
-      <div class="col-3">
+      <div class="col-3 p-2">
         <h2>AVADA MOVERS</h2>
         <ul>
           <li v-for="(item, index) in footerItems" :key="index">
@@ -20,7 +20,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-3">
+      <div class="col-3 p-2">
         <h2>RECENT POSTS</h2>
         <ul>
           <li v-for="(item, index) in footerItems1" :key="index">
@@ -36,7 +36,7 @@
               Theme by ThemeFusion | All Rights Reserved | Powered by WordPress
             </div>
           </form>
-          <ul class="d-flex">
+          <ul class="d-flex hover-scale">
             <li>
               <a href="#"><i class="fa-brands fa-facebook-f p-2"></i></a>
             </li>
@@ -110,5 +110,9 @@ footer a :hover {
 
 .height-15px {
   height: 15px;
+}
+
+.hover-scale :hover {
+  transform: scale(1.3);
 }
 </style>

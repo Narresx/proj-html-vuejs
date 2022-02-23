@@ -8,7 +8,7 @@
             <div class="col-3">
               <nav class="navbar d-flex">
                 <form class="container-fluid justify-content-end">
-                  <ul class="d-flex">
+                  <ul class="d-flex m-0">
                     <li>
                       <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                     </li>
@@ -30,7 +30,7 @@
       </div>
       <div class="col-12">
         <div class="container pt-5 pb-5">
-          <div class="row align-items-center justify-content-between">
+          <div class="row align-items-center">
             <div class="col-3">
               <img src="../assets/img/avada-movers-logo.png" />
             </div>
@@ -68,8 +68,11 @@
       </div>
       <div class="col-12 baground-demin2">
         <div class="text-center pt-4 pb-4">
-          <i class="fa-solid fa-paper-plane"></i
-          ><span class="p-2">GET A FREE QUOTO ONLINE NOW!</span>
+          <a href="#" class="text-white text-decoration-none">
+            <i class="fa-solid fa-paper-plane p-2">
+              GET A FREE QUOTE ONLINE NOW!
+            </i>
+          </a>
         </div>
       </div>
     </div>
@@ -120,6 +123,11 @@ header li a {
 header li,
 a:hover {
   color: $lima2;
+}
+
+.col-12 div a :hover {
+  transform: scale(1.3);
+  color: $white;
 }
 
 header {
