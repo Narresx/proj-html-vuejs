@@ -45,7 +45,10 @@
           <div class="container">
             <div class="row">
               <div class="col-4">
-                <div class="card baground-lightgray" style="width: 18rem">
+                <div
+                  class="card baground-lightgray m-auto"
+                  style="width: 18rem"
+                >
                   <img
                     src="../assets/img/avada-movers-serviceonephoto-final.jpg"
                     class="card-img-top p-3"
@@ -73,7 +76,10 @@
                 </div>
               </div>
               <div class="col-4">
-                <div class="card baground-lightgray" style="width: 18rem">
+                <div
+                  class="card baground-lightgray m-auto"
+                  style="width: 18rem"
+                >
                   <img
                     src="../assets/img/avada-movers-servicetwophoto-final.jpg"
                     class="card-img-top p-3"
@@ -101,7 +107,10 @@
                 </div>
               </div>
               <div class="col-4">
-                <div class="card baground-lightgray" style="width: 18rem">
+                <div
+                  class="card baground-lightgray m-auto"
+                  style="width: 18rem"
+                >
                   <img
                     src="../assets/img/avada-movers-servicethreephoto-final.jpg"
                     class="card-img-top p-3"
